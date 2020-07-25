@@ -215,6 +215,12 @@ html {
 	overflow: hidden;
 }
 
+.align-items-center {
+	align-items: center !important;
+	display: flex;
+flex-wrap: wrap;
+}
+
 .sixcol {
 	margin-right: 3.8%;
 	float: left;
@@ -232,6 +238,23 @@ html {
 
 .last {
 	margin-right: 0px;
+}
+
+.sixcol .vert {
+	position: relative;
+	width: 100%;
+}
+
+.sixcol .vert .helper {
+	margin: 0;
+	padding: 0;
+	display: inline-flex;
+}
+
+.sixcol .vert .helper img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
 }
 
 /* Headings
