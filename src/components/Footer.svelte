@@ -5,42 +5,35 @@
 
 <style>
   footer {
-    width: 100%;
-    background-color: var(--color-5);
     z-index: 100;
-    padding: 10px 0 5px 0;
-  }
-
-  .footer_box {
-    width: 90%;
-    max-width: 1140px;
-    margin: 0 auto;
-    padding-left: 5%;
-    padding-right: 5%;
+    background-color: var(--color-5);
+    width: 100%;
+    margin-top: 90px;
+    padding: 20px 15px;
   }
 
   .copyright {
-    width: 100%;
     text-align: center;
-    padding-top: 15px;
+    font-size: 0.8rem;
+    opacity: 1;
+    letter-spacing: 0.3px;
+    margin: 0;
+    color: #eee;
   }
 
-  .copyright p {
-    color: var(--color-3) !important;
-    font-size: 15px;
+  a {
+    color: var(--color-orange);
+    font-size: 1rem;
   }
 </style>
 
-<footer class="top_border">
-  <div class="footer_box">
-    <div class="row">
-      <div class="twelvecol up_fade">
-        <div class="copyright ">
-          <p>
-            Copyright © 2019
-            <a href="https://ukemi.ninja">Ukemi</a>
-          </p>
-        </div>
+<footer>
+  <div class="row">
+    <div class="twelvecol up_fade">
+      <div class="copyright ">
+        © Copyright 2020
+        <a href="https://ukemi.ninja">Ukemi</a>
+        All Rights Reserved
       </div>
     </div>
   </div>
