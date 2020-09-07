@@ -1,11 +1,12 @@
 <style>
   img {
-    display: block;
-    height: 50px;
-    width: 50px;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    z-index: 900;
   }
 </style>
 
 <a href="/">
-  <img alt="Sapper" src='logo-192.png'>
+  <img src="lib/images/logo.png" alt="Movement Card logo" />
 </a>

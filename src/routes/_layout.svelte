@@ -1,54 +1,37 @@
+<script context="module">
+  import { isLoading, waitLocale } from "svelte-i18n";
+  export async function preload(page) {
+    return waitLocale();
+  }
+</script>
+
 <script>
-  import Header from '../components/Header.svelte';
+  import Header from "../components/Header.svelte";
+  import Footer from "../components/Footer.svelte";
 
   export let segment;
 </script>
 
 <style>
-  .layout {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    min-height: 100vh;
-  }
-
-  main {
-    flex: 1;
+  #container {
     position: relative;
+    overflow: hidden;
     margin: 0 auto;
-    max-width: 1400px;
-    background-color: white;
-    padding: 1em 2em;
-    box-sizing: border-box;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  footer {
-    color: #AAA;
-    font-size: 1em;
-    font-family: Rubik, sans-serif;
-    margin: 1em auto;
-    max-width: 1400px;
-    padding: 1em 2em;
-    text-align: center;
-    width: 100%;
+    max-width: 1140px;
   }
 </style>
 
-<div class="layout">
-  <Header {segment}/>
+<div id="container">
+  {#if $isLoading}
+    <div class="loading">Loading...</div>
+  {:else}
+    <Header {segment} />
 
-  <main>
-    <slot></slot>
-  </main>
+    <main>
+      <slot />
+    </main>
 
-  <footer>
-    <span>
-      &copy; {new Date().getFullYear()} Your Blog.
-      Powered by <a href="https://sapper.svelte.dev" target="_blank">Sapper</a>.
-      Template by <a href="https://www.twitter.com/Charca" target="_blank">Maxi Ferreira</a>.
-    </span>
-  </footer>
+    <Footer {segment} />
+  {/if}
 </div>

@@ -1,0 +1,19 @@
+{
+  "title": {
+    "index": "Sapper project template!"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "blog": "اتصل بنا"
+  },
+  "messages": {
+    "error": "خطأ: {status}",
+    "success": "عظيم"
+  },
+  "languages": {
+    "en": "English",
+    "fi": "عربى"
+  },
+  "direction": "ltr"
+}
