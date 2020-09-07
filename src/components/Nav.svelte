@@ -24,11 +24,10 @@
     display: inline-block;
     text-align: center;
     padding: 0;
-    font-size: 20px;
-    line-height: 18px;
-    font-weight: 100;
-    font-family: var(--font-heading);
-    color: var(--color-1);
+    font-weight: 500;
+    /* font-family: var(--font-heading); */
+    font-size: 1rem;
+    color: #eee;
   }
 
   a:hover {
@@ -47,6 +46,11 @@
     </li>
     <li>
       <a class:selected={segment === 'about'} href="about">{$_('nav.about')}</a>
+    </li>
+    <li>
+      <a class:selected={segment === 'rights'} href="rights">
+        {$_('nav.rights')}
+      </a>
     </li>
     <li>
       <a rel="prefetch" class:selected={segment === 'blog'} href="blog">

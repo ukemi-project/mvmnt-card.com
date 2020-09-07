@@ -5,6 +5,7 @@
   "nav": {
     "home": "Home",
     "about": "About",
+    "rights": "Rights",
     "blog": "Blog"
   },
   "messages": {
@@ -13,7 +14,8 @@
   },
   "languages": {
     "en": "English",
-    "fi": "عربى"
+    "fi": "Suomi"
   },
-  "direction": "ltr"
+  "direction": "ltr",
+  "copywrite": "All Rights Reserved"
 }

@@ -1,19 +1,21 @@
 {
   "title": {
-    "index": "Sapper project template!"
+    "index": "Movement Card - Right to the city"
   },
   "nav": {
-    "home": "الرئيسية",
-    "about": "من نحن",
-    "blog": "اتصل بنا"
+    "home": "Koti",
+    "about": "Noin",
+    "rights": "Oikeus",
+    "blog": "Blogi"
   },
   "messages": {
-    "error": "خطأ: {status}",
-    "success": "عظيم"
+    "error": "Virhe: {status}",
+    "success": "Menestys"
   },
   "languages": {
     "en": "English",
-    "fi": "عربى"
+    "fi": "Suomi"
   },
-  "direction": "ltr"
+  "direction": "ltr",
+  "copywrite": "Kaikki oikeudet pidätetään"
 }

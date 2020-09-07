@@ -16,7 +16,7 @@
     text-align: center;
     font-size: 0.8rem;
     opacity: 1;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.1em;
     margin: 0;
     color: #eee;
   }
@@ -33,7 +33,7 @@
       <div class="copyright ">
         © Copyright 2020
         <a href="https://ukemi.ninja">Ukemi</a>
-        All Rights Reserved
+        {$_('copywrite')}
       </div>
     </div>
   </div>
