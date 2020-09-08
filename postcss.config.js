@@ -1,0 +1,23 @@
+const purgecss = require('@fullhuman/postcss-purgecss')({
+  content: [
+    './**/**/*.html',
+    './**/**/*.svelte'
+  ],
+
+  whitelistPatterns: [/svelte-/],
+
+  defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+});
+
+const production = !process.env.ROLLUP_WATCH
+
+module.exports = {
+  plugins: [
+    require('postcss-import'),
+    require('tailwindcss'),
+    require('postcss-nested'),
+    require('postcss-custom-properties'),
+    require('autoprefixer'),
+    ...(production ? [purgecss] : [])
+  ]
+};

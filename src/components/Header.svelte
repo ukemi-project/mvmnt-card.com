@@ -7,7 +7,7 @@
 
 <style>
   header {
-    position: fixed;
+    /* position: fixed;
     width: 100%;
     height: 70px !important;
     padding-top: 10px;
@@ -18,21 +18,42 @@
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     max-width: 1140px;
-    z-index: 1;
+    z-index: 1; */
+
+    padding: 10px 0;
+    position: absolute;
+    background-color: var(--color-5);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  .header {
-    width: 90%;
-    max-width: 1140px;
-    margin: 0 auto;
-    padding-left: 5%;
-    padding-right: 5%;
+  .row {
+    padding: 0 7%;
+    max-width: 1400px;
+    margin: 0 auto !important;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
   }
 </style>
 
 <header>
-  <div class="header">
-    <Logo />
-    <Nav {segment} />
+  <div>
+    <div class="row">
+      <Logo />
+      <Nav {segment} />
+    </div>
   </div>
 </header>

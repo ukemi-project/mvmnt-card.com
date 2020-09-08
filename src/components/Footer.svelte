@@ -12,6 +12,14 @@
     padding: 20px 15px;
   }
 
+  .row {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 1500px;
+    margin: 0 auto;
+    max-width: 1400px;
+  }
   .copyright {
     text-align: center;
     font-size: 0.8rem;

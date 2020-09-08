@@ -2,11 +2,11 @@
   img {
     position: relative;
     float: left;
-    margin-top: 10px;
     z-index: 900;
+    max-width: 120px;
   }
 </style>
 
 <a href="/">
-  <img src="lib/images/logo.png" alt="Movement Card logo" />
+  <img src="images/mc-logo.png" alt="Movement Card logo" />
 </a>

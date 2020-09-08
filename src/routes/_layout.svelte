@@ -13,25 +13,22 @@
 </script>
 
 <style>
-  #container {
-    position: relative;
-    overflow: hidden;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1140px;
+  .wrapper {
+    padding: 0;
+    display: block;
   }
 </style>
 
-<div id="container">
-  {#if $isLoading}
-    <div class="loading">Loading...</div>
-  {:else}
-    <Header {segment} />
+{#if $isLoading}
+  <div class="loading">Loading...</div>
+{:else}
+  <div class="wrapper">
+    <!-- <Header {segment} /> -->
 
     <main>
       <slot />
     </main>
 
-    <Footer {segment} />
-  {/if}
-</div>
+    <!-- <Footer {segment} /> -->
+  </div>
+{/if}
