@@ -26,7 +26,8 @@ module.exports = {
       color3: '#404040',
       color4: '#262626',
       mcblack: '#0d0d0d',
-      mcorange: '#d3aa89',
+      mcorange1: '#d3aa89',
+      mcorange2: '#d97d57',
 
       gray: {
         100: '#f7fafc',

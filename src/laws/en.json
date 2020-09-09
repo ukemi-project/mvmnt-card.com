@@ -7,7 +7,11 @@
     "about": "About",
     "rights": "Rights",
     "blog": "Blog",
-    "cta": "Get Involved!"
+    "cta": "Get Involved!",
+    "community": "Community",
+    "press": "Press",
+    "legal": "Legal",
+    "partners": "Partners"
   },
   "messages": {
     "error": "Error: {status}",

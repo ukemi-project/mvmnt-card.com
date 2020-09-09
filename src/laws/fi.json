@@ -7,7 +7,11 @@
     "about": "Noin",
     "rights": "Oikeus",
     "blog": "Blogi",
-    "cta": "Ota mukaan!"
+    "cta": "Ota mukaan!",
+    "community": "Yhteisö",
+    "press": "Uutiset",
+    "legal": "Oikeudellinen",
+    "partners": "Kumppanit"
   },
   "messages": {
     "error": "Virhe: {status}",

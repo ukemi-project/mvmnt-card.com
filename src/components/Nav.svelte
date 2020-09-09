@@ -51,26 +51,26 @@
 
 <nav class="hidden space-x-10 md:flex {$_('direction')}" role="navigation">
   <a
-    class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange"
+    class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
     class:selected={segment === undefined}
     href=".">
     {$_('nav.home')}
   </a>
   <a
-    class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange"
+    class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
     class:selected={segment === 'about'}
     href="about">
     {$_('nav.about')}
   </a>
   <a
-    class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange"
+    class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
     class:selected={segment === 'rights'}
     href="rights">
     {$_('nav.rights')}
   </a>
   <a
     rel="prefetch"
-    class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange"
+    class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
     class:selected={segment === 'blog'}
     href="blog">
     {$_('nav.blog')}
@@ -78,7 +78,7 @@
   <span class="text-mcwhite">|</span>
   {#each $locales as item}
     <a
-      class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange"
+      class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
       class:selected={$locale.includes(item)}
       href={`#!${item}`}
       on:click={() => ($locale = item)}>
@@ -91,7 +91,7 @@
   <span class="inline-flex rounded-md shadow-sm">
     <a
       href="#"
-      class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 whitespace-no-wrap transition duration-150 ease-in-out border border-transparent rounded-md text-mcblack bg-mcwhite hover:bg-mcorange hover:text-mcwhite focus:outline-none focus:border-mcwhite focus:shadow-outline-indigo active:bg-mcorange">
+      class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 whitespace-no-wrap transition duration-150 ease-in-out border border-transparent rounded-md bg-mcwhite text-mcblack hover:bg-mcorange2 hover:text-mcwhite focus:outline-none focus:border-mcwhite focus:shadow-outline-indigo active:bg-mcorange2">
       {$_('nav.cta')}
     </a>
   </span>
@@ -143,7 +143,7 @@
               href="#"
               class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
               <svg
-                class="flex-shrink-0 w-6 h-6 text-indigo-600"
+                class="flex-shrink-0 w-6 h-6 text-yellow-600"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor">
