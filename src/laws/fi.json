@@ -6,7 +6,8 @@
     "home": "Koti",
     "about": "Noin",
     "rights": "Oikeus",
-    "blog": "Blogi"
+    "blog": "Blogi",
+    "cta": "Ota mukaan!"
   },
   "messages": {
     "error": "Virhe: {status}",

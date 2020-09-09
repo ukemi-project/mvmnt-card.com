@@ -6,7 +6,8 @@
     "home": "Home",
     "about": "About",
     "rights": "Rights",
-    "blog": "Blog"
+    "blog": "Blog",
+    "cta": "Get Involved!"
   },
   "messages": {
     "error": "Error: {status}",

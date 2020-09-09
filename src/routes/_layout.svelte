@@ -1,4 +1,5 @@
 <script context="module">
+  import Tailwindcss from "../Tailwindcss.svelte";
   import { isLoading, waitLocale } from "svelte-i18n";
   export async function preload(page) {
     return waitLocale();
@@ -12,23 +13,18 @@
   export let segment;
 </script>
 
-<style>
-  .wrapper {
-    padding: 0;
-    display: block;
-  }
-</style>
-
+<Tailwindcss />
 {#if $isLoading}
   <div class="loading">Loading...</div>
 {:else}
-  <div class="wrapper">
-    <!-- <Header {segment} /> -->
+  <div class="relative">
+
+    <Header {segment} />
 
     <main>
       <slot />
     </main>
 
-    <!-- <Footer {segment} /> -->
+    <Footer {segment} />
   </div>
 {/if}

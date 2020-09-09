@@ -20,6 +20,13 @@ module.exports = {
 
       black: '#000',
       white: '#fff',
+      mcwhite: '#d9d9d9',
+      color1sub: '#91a2a5',
+      color2: '#595959',
+      color3: '#404040',
+      color4: '#262626',
+      mcblack: '#0d0d0d',
+      mcorange: '#d3aa89',
 
       gray: {
         100: '#f7fafc',

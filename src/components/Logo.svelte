@@ -1,12 +1,8 @@
-<style>
-  img {
-    position: relative;
-    float: left;
-    z-index: 900;
-    max-width: 120px;
-  }
-</style>
-
-<a href="/">
-  <img src="images/mc-logo.png" alt="Movement Card logo" />
-</a>
+<div class="flex flex-1 w-0">
+  <a href="#" class="inline-flex">
+    <img
+      class="w-auto h-8 sm:h-20"
+      src="images/mc-logo.png"
+      alt="Movement Card logo" />
+  </a>
+</div>
