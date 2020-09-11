@@ -14,31 +14,9 @@
 </script>
 
 <script>
-  import Bio from '../../components/Bio.svelte'
-  export let post
+  import Bio from "../../components/Bio.svelte";
+  export let post;
 </script>
-
-<style>
-  header {
-    text-align: center;
-  }
-
-  header h1 {
-    margin-bottom: 0.7em;
-  }
-
-  header p {
-    color: #AAA;
-    text-transform: uppercase;
-    font-family: Rubik, sans-serif;
-    font-weight: 600;
-  }
-
-  header hr {
-    min-width: 100px;
-    width: 30%;
-  }
-</style>
 
 <svelte:head>
   <title>{post.title}</title>

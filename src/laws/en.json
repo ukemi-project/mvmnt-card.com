@@ -22,5 +22,10 @@
     "fi": "Suomi"
   },
   "direction": "ltr",
-  "copywrite": "All Rights Reserved"
+  "copywrite": "All Rights Reserved",
+  "rights": {
+    "subtitle": "Right To The City",
+    "body": "The following will guide you through the legal rights relating to the typical reasons given by security guards/landowners.<br /><br />Always train with respect for others and your surroundings. Do not run away or act suspiciously if police or others approach you. If you are asked to move on, then you should explain what Parkour is, be respectful and move on. It is better to be on good terms with landowners and/or the police if you, or other practitioners, want to return another day.",
+    "disclaimer": "The information here is for educational purposes only and does not constitute legal advice."
+  }
 }

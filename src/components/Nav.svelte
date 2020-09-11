@@ -77,13 +77,13 @@
   </a>
   <span class="text-mcwhite">|</span>
   {#each $locales as item}
-    <a
+    <span
       class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
       class:selected={$locale.includes(item)}
       href={`#!${item}`}
       on:click={() => ($locale = item)}>
       {$_('languages.' + item.replace('-', '_'))}
-    </a>
+    </span>
   {/each}
 </nav>
 
