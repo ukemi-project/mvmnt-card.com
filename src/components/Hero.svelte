@@ -15,8 +15,8 @@
       </h2>
       <p
         class="max-w-md mx-auto mt-3 text-base text-mcwhite sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-        cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+        A not-for-profit project that aims to help everyone understand their
+        right to move.
       </p>
     </div>
   </div>

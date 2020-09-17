@@ -72,7 +72,7 @@
     rel="prefetch"
     class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
     class:selected={segment === 'blog'}
-    href="blog">
+    href="https://ukemi.ninja/blog">
     {$_('nav.blog')}
   </a>
   <span class="text-mcwhite">|</span>
