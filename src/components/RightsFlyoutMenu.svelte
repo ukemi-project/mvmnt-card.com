@@ -21,7 +21,7 @@
 
     <span>{$_('nav.rights')}</span>
     <svg
-      class="w-5 h-5 text-gray-400 transition duration-150 ease-in-out group-hover:text-gray-500 group-focus:text-gray-500"
+      class="w-5 h-5 transition duration-150 ease-in-out text-mcwhite group-hover:text-mcorange2 group-focus:text-mcorange2"
       fill="currentColor"
       viewBox="0 0 20 20">
       <path
