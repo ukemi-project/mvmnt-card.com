@@ -1,44 +1,17 @@
 <script>
   import { _, locale, locales } from "svelte-i18n";
+
+  import RightsFlyoutMenu from "./RightsFlyoutMenu.svelte";
+
   export let segment;
 </script>
-
-<!-- <nav class={$_('direction')} role="navigation">
-  <ul class={$_('direction')}>
-    <li>
-      <a class:selected={segment === undefined} href=".">{$_('nav.home')}</a>
-    </li>
-    <li>
-      <a class:selected={segment === 'about'} href="about">{$_('nav.about')}</a>
-    </li>
-    <li>
-      <a class:selected={segment === 'rights'} href="rights">
-        {$_('nav.rights')}
-      </a>
-    </li>
-    <li>
-      <a rel="prefetch" class:selected={segment === 'blog'} href="blog">
-        {$_('nav.blog')}
-      </a>
-    </li>
-    {#each $locales as item}
-      <li>
-        <span
-          class="a"
-          class:selected={$locale.includes(item)}
-          href={`#!${item}`}
-          on:click={() => ($locale = item)}>
-          {$_('languages.' + item.replace('-', '_'))}
-        </span>
-      </li>
-    {/each}
-  </ul>
-</nav> -->
 
 <div class="-my-2 -mr-2 md:hidden">
   <button
     type="button"
-    class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500">
+    class="inline-flex items-center justify-center p-2 text-gray-400 transition
+    duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100
+    focus:outline-none focus:bg-gray-100 focus:text-gray-500">
     <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path
         stroke-linecap="round"
@@ -51,26 +24,24 @@
 
 <nav class="hidden space-x-10 md:flex {$_('direction')}" role="navigation">
   <a
-    class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
+    class="inline-flex items-center space-x-2 text-base font-medium leading-6
+    transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
     class:selected={segment === undefined}
     href=".">
     {$_('nav.home')}
   </a>
   <a
-    class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
+    class="inline-flex items-center space-x-2 text-base font-medium leading-6
+    transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
     class:selected={segment === 'about'}
     href="about">
     {$_('nav.about')}
   </a>
-  <a
-    class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
-    class:selected={segment === 'rights'}
-    href="rights">
-    {$_('nav.rights')}
-  </a>
+  <RightsFlyoutMenu />
   <a
     rel="prefetch"
-    class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
+    class="inline-flex items-center space-x-2 text-base font-medium leading-6
+    transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
     class:selected={segment === 'blog'}
     href="https://ukemi.ninja/blog">
     {$_('nav.blog')}
@@ -78,7 +49,8 @@
   <span class="text-mcwhite">|</span>
   {#each $locales as item}
     <span
-      class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
+      class="inline-flex items-center space-x-2 text-base font-medium leading-6
+      transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
       class:selected={$locale.includes(item)}
       href={`#!${item}`}
       on:click={() => ($locale = item)}>
@@ -91,7 +63,11 @@
   <span class="inline-flex rounded-md shadow-sm">
     <a
       href="#"
-      class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 whitespace-no-wrap transition duration-150 ease-in-out border border-transparent rounded-md bg-mcwhite text-mcblack hover:bg-mcorange2 hover:text-mcwhite focus:outline-none focus:border-mcwhite focus:shadow-outline-indigo active:bg-mcorange2">
+      class="inline-flex items-center justify-center px-4 py-2 text-base
+      font-medium leading-6 whitespace-no-wrap transition duration-150
+      ease-in-out border border-transparent rounded-md bg-mcwhite text-mcblack
+      hover:bg-mcorange2 hover:text-mcwhite focus:outline-none
+      focus:border-mcwhite focus:shadow-outline-indigo active:bg-mcorange2">
       {$_('nav.cta')}
     </a>
   </span>
@@ -108,7 +84,8 @@
         To: "opacity-0 scale-95"
     -->
 <div
-  class="absolute inset-x-0 top-0 z-10 p-2 transition origin-top-right transform md:hidden">
+  class="absolute inset-x-0 top-0 z-10 p-2 transition origin-top-right transform
+  md:hidden">
   <div class="rounded-lg shadow-lg">
     <div class="bg-white divide-y-2 rounded-lg shadow-xs divide-gray-50">
       <div class="px-5 pt-5 pb-6 space-y-6">
@@ -122,7 +99,10 @@
           <div class="-mr-2">
             <button
               type="button"
-              class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500">
+              class="inline-flex items-center justify-center p-2 text-gray-400
+              transition duration-150 ease-in-out rounded-md hover:text-gray-500
+              hover:bg-gray-100 focus:outline-none focus:bg-gray-100
+              focus:text-gray-500">
               <svg
                 class="w-6 h-6"
                 fill="none"
@@ -141,7 +121,8 @@
           <nav class="grid row-gap-8">
             <a
               href="#"
-              class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+              class="flex items-center p-3 -m-3 space-x-3 transition
+              duration-150 ease-in-out rounded-md hover:bg-gray-50">
               <svg
                 class="flex-shrink-0 w-6 h-6 text-yellow-600"
                 fill="none"
@@ -162,7 +143,8 @@
             </a>
             <a
               href="#"
-              class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+              class="flex items-center p-3 -m-3 space-x-3 transition
+              duration-150 ease-in-out rounded-md hover:bg-gray-50">
               <svg
                 class="flex-shrink-0 w-6 h-6 text-indigo-600"
                 fill="none"
@@ -182,7 +164,8 @@
             </a>
             <a
               href="#"
-              class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+              class="flex items-center p-3 -m-3 space-x-3 transition
+              duration-150 ease-in-out rounded-md hover:bg-gray-50">
               <svg
                 class="flex-shrink-0 w-6 h-6 text-indigo-600"
                 fill="none"
@@ -203,7 +186,8 @@
             </a>
             <a
               href="#"
-              class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+              class="flex items-center p-3 -m-3 space-x-3 transition
+              duration-150 ease-in-out rounded-md hover:bg-gray-50">
               <svg
                 class="flex-shrink-0 w-6 h-6 text-indigo-600"
                 fill="none"
@@ -225,7 +209,8 @@
             </a>
             <a
               href="#"
-              class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+              class="flex items-center p-3 -m-3 space-x-3 transition
+              duration-150 ease-in-out rounded-md hover:bg-gray-50">
               <svg
                 class="flex-shrink-0 w-6 h-6 text-indigo-600"
                 fill="none"
@@ -249,42 +234,50 @@
         <div class="grid grid-cols-2 row-gap-4 col-gap-8">
           <a
             href="#"
-            class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700">
+            class="text-base font-medium leading-6 text-gray-900 transition
+            duration-150 ease-in-out hover:text-gray-700">
             Pricing
           </a>
           <a
             href="#"
-            class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700">
+            class="text-base font-medium leading-6 text-gray-900 transition
+            duration-150 ease-in-out hover:text-gray-700">
             Docs
           </a>
           <a
             href="#"
-            class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700">
+            class="text-base font-medium leading-6 text-gray-900 transition
+            duration-150 ease-in-out hover:text-gray-700">
             Enterprise
           </a>
           <a
             href="#"
-            class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700">
+            class="text-base font-medium leading-6 text-gray-900 transition
+            duration-150 ease-in-out hover:text-gray-700">
             Blog
           </a>
           <a
             href="#"
-            class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700">
+            class="text-base font-medium leading-6 text-gray-900 transition
+            duration-150 ease-in-out hover:text-gray-700">
             Help Center
           </a>
           <a
             href="#"
-            class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700">
+            class="text-base font-medium leading-6 text-gray-900 transition
+            duration-150 ease-in-out hover:text-gray-700">
             Guides
           </a>
           <a
             href="#"
-            class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700">
+            class="text-base font-medium leading-6 text-gray-900 transition
+            duration-150 ease-in-out hover:text-gray-700">
             Security
           </a>
           <a
             href="#"
-            class="text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out hover:text-gray-700">
+            class="text-base font-medium leading-6 text-gray-900 transition
+            duration-150 ease-in-out hover:text-gray-700">
             Events
           </a>
         </div>
@@ -292,7 +285,11 @@
           <span class="flex w-full rounded-md shadow-sm">
             <a
               href="#"
-              class="flex items-center justify-center w-full px-4 py-2 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700">
+              class="flex items-center justify-center w-full px-4 py-2 text-base
+              font-medium leading-6 text-white transition duration-150
+              ease-in-out bg-indigo-600 border border-transparent rounded-md
+              hover:bg-indigo-500 focus:outline-none focus:border-indigo-700
+              focus:shadow-outline-indigo active:bg-indigo-700">
               Sign up
             </a>
           </span>
@@ -300,7 +297,8 @@
             Existing customer?
             <a
               href="#"
-              class="text-indigo-600 transition duration-150 ease-in-out hover:text-indigo-500">
+              class="text-indigo-600 transition duration-150 ease-in-out
+              hover:text-indigo-500">
               Sign in
             </a>
           </p>

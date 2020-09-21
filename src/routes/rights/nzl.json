@@ -1,7 +1,6 @@
-export default
 {
-  "country": "Scotland",
-  "slug": "sct",
+  "country": "New Zealand",
+  "slug": "nzl",
   "laws": [
     {
       "title": "\"This is private property\"",

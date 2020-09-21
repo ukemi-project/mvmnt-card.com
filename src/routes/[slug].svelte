@@ -1,14 +1,13 @@
 <script context="module">
-  export const preload = async ({ params, query }) => {
-    const res = await fetch(`${params.slug}.json`);
+  export async function preload({ params, query }) {
+    const res = await this.fetch(`${params.slug}.json`);
     const data = await res.json();
-
     if (res.status === 200) {
       return { post: data };
     } else {
-      error(res.status, data.message);
+      this.error(res.status, data.message);
     }
-  };
+  }
 </script>
 
 <script>
