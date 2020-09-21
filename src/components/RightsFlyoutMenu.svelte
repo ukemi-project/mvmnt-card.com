@@ -50,6 +50,7 @@
         <div
           class="relative z-20 grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8 lg:grid-cols-2">
           <a
+            on:click={() => (open = !open)}
             href="sct"
             class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
             <div
@@ -65,6 +66,7 @@
             </div>
           </a>
           <a
+            on:click={() => (open = !open)}
             href="fin"
             class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
             <div
@@ -80,6 +82,7 @@
             </div>
           </a>
           <a
+            on:click={() => (open = !open)}
             href="nzl"
             class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
             <div
