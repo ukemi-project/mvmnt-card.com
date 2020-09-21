@@ -67,7 +67,7 @@
           </a>
           <a
             on:click={() => (open = !open)}
-            href="fin"
+            href="fi"
             class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
             <div
               class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-md sm:h-16 sm:w-16 ">
@@ -77,13 +77,13 @@
               class="flex items-center justify-center h-12 space-y-1 sm:h-16">
               <p
                 class="self-center flex-1 text-base font-medium leading-6 text-gray-900">
-                Finland (FIN)
+                Finland (FI)
               </p>
             </div>
           </a>
           <a
             on:click={() => (open = !open)}
-            href="nzl"
+            href="nz"
             class="flex items-start p-3 -m-3 space-x-4 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
             <div
               class="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-md sm:h-16 sm:w-16 ">
@@ -93,7 +93,7 @@
               class="flex items-center justify-center h-12 space-y-1 sm:h-16">
               <p
                 class="self-center flex-1 text-base font-medium leading-6 text-gray-900">
-                New Zealand (NZL)
+                New Zealand (NZ)
               </p>
             </div>
           </a>
