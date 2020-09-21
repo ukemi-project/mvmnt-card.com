@@ -1,3 +1,4 @@
+export default
 {
   "country": "Scotland",
   "slug": "sct",
