@@ -12,8 +12,15 @@
 
 <script>
   import { _, locale, locales, dictionary } from "svelte-i18n";
-
   export let post;
+
+  switch (post.slug) {
+    case "fi":
+      $locale = "fi";
+      break;
+    default:
+      $locale = "en";
+  }
 </script>
 
 <div class="px-4 py-16 overflow-hidden bg-white xl:py-36 sm:px-6 lg:px-8">
@@ -39,34 +46,34 @@
           <div class="mb-6 prose prose-lg text-color3 lg:max-w-none lg:mb-0">
             <h2
               class="py-3 font-semibold leading-6 tracking-wide uppercase sm:text-xl text-mcorange2">
-              {post.laws[0].title}
+              {post[$locale][0].title}
             </h2>
             <p>
-              {@html post.laws[0].content}
+              {@html post[$locale][0].content}
             </p>
           </div>
           <div class="prose prose-lg text-color3">
             <h2
               class="py-3 font-semibold leading-6 tracking-wide uppercase sm:text-xl text-mcorange2">
-              {post.laws[1].title}
+              {post[$locale][1].title}
             </h2>
-            {@html post.laws[1].content}
+            {@html post[$locale][1].content}
           </div>
           <div class="mb-6 prose prose-lg text-color3 lg:max-w-none lg:mb-0">
             <h2
               class="py-3 font-semibold leading-6 tracking-wide uppercase sm:text-xl text-mcorange2">
-              {post.laws[2].title}
+              {post[$locale][2].title}
             </h2>
             <p>
-              {@html post.laws[2].content}
+              {@html post[$locale][2].content}
             </p>
           </div>
           <div class="prose prose-lg text-color3">
             <h2
               class="py-3 font-semibold leading-6 tracking-wide uppercase sm:text-xl text-mcorange2">
-              {post.laws[3].title}
+              {post[$locale][3].title}
             </h2>
-            {@html post.laws[3].content}
+            {@html post[$locale][3].content}
           </div>
         </div>
         <div

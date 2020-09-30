@@ -17,11 +17,11 @@
 {#if $isLoading}
   <div class="loading">Loading...</div>
 {:else}
-  <div class="relative">
+  <div class="relative flex flex-col h-full">
 
     <Header {segment} />
 
-    <main>
+    <main class="inset-0 flex-grow">
       <slot />
     </main>
 

@@ -3,7 +3,7 @@
   export let segment;
 </script>
 
-<footer class="bg-mcblack">
+<footer class="inset-x-0 bottom-0 bg-mcblack">
   <div
     class="max-w-screen-xl px-4 py-12 mx-auto overflow-hidden sm:px-6 lg:px-8">
     <nav class="flex flex-wrap justify-center -mx-5 -my-2">
@@ -21,7 +21,7 @@
           rel="prefetch"
           class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
           class:selected={segment === 'blog'}
-          href="blog">
+          href="https://ukemi.ninja/blog">
           {$_('nav.blog')}
         </a>
       </div>
@@ -36,25 +36,25 @@
       <div class="px-5 py-2">
         <a
           class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
-          class:selected={segment === 'press'}
-          href="press">
-          {$_('nav.press')}
+          class:selected={segment === 'cookies'}
+          href="legal/cookies">
+          {$_('nav.cookies')}
         </a>
       </div>
       <div class="px-5 py-2">
         <a
           class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
-          class:selected={segment === 'legal'}
-          href="legal">
-          {$_('nav.legal')}
+          class:selected={segment === 'privacy'}
+          href="legal/privacy">
+          {$_('nav.privacy')}
         </a>
       </div>
       <div class="px-5 py-2">
         <a
           class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
-          class:selected={segment === 'partners'}
-          href="partners">
-          {$_('nav.partners')}
+          class:selected={segment === 'terms'}
+          href="legal/terms">
+          {$_('nav.terms')}
         </a>
       </div>
     </nav>

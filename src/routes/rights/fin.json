@@ -1,22 +1,40 @@
 {
   "country": "Finland",
   "slug": "fi",
-  "laws": [
+  "fi": [
     {
-      "title": "This is private property",
-      "content": "Jos maa on jonkun omistuksessa, se on yksityisomistusta. Hämmentävässä mielessä tähän sisältyy julkisesti käytettävissä oleva maa. Tämä tarkoittaa, että melkein kaikki Skotlannin maa-alueet ovat yksityisomistusta, mutta tämä ei aina tarkoita, ettet voi olla siellä. <br /> <br /> Jos maanomistaja on asettanut maansa yleisön, ts. Julkisen aukion, saataville, sinulla on käyttöoikeudet vuoden 2003 maareformista (Skotlanti) annetun lain nojalla, kunhan käyttäydyt vastuullisesti. Tätä kutsutaan yleisesti oikeudeksi vaeltaa. <br /> <br /> Et riko lakia harjoittelemalla yleisölle avoimella yksityisellä maalla, joten sinua ei pidä kohdella ikään kuin rikot lakia. . Maanomistajia tulisi muistuttaa tästä, jos he siirtävät sinut eteenpäin tästä syystä. <br /> <br /> On syytä huomata, että oikeus vaeltaa ei koske tiettyjä alueita, esimerkiksi maata, joka on lähellä tai alueella. rakennus; koulun alue; ja rakennus- / purkupaikat."
+      "title": "\"Tämä on yksityisaluetta\"",
+      "content": "Suomessa yksityisalueita, jotka ovat jokamiehenoikeuden ulkopuolella ovat suljetut alueet (esim. tehtaat ja laitokset) ja kotirauhan piiriin kuuluvat alueet (kuten kotipihat, sisäpihat, rappukäytävät, terassit ja parvekkeet). Muutoin parkouraaja voi harjoitella missä vain <strong>kunhan ei toiminnallaan häiritse kotirauhaa tai muutoin aiheuta häiriötä tai vahinkoa</strong>."
     },
     {
-      "title": "We are liable if you hurt yourself",
-      "content": "Skotlannin okupanttivastuuta (Skotlanti) koskevan vuoden 1960 lain mukaan omaisuudenhoitajat ovat velvollisia huolehtimaan maahansa tai toimitiloihinsa saapuvista ihmisistä, mikä on kohtuullista kaikissa olosuhteissa. <br /> <br /> Asukas, esimerkiksi näihin tarkoituksiin, onko joku miehittänyt tai hallitseva maata tai muita tiloja - tämä käsittää maanomistajat ja heidän vartijansa. Maanomistajat ovat yleensä huolissaan vastuusta, jos vahingoitat itseäsi harjoitellessasi Parkouria heidän maallaan. <br /> <br /> Vastuu syntyy kuitenkin vain, jos loukkaantuminen tapahtuu jossakin seuraavista tilanteista: <br /> <br / > Loukkaantuminen johtuu tilojen tilasta johtuvista vaaroista, esim liukkaat tai epätasaiset lattiat; tai loukkaantuminen johtuu asukkaan tekemistä tai tekemättä jättämistä tekemisistä, jotka ovat aiheuttaneet vaaran tiloissa, ts. he eivät ole varoittaneet sinua jotain vaarallisesta tiloissaan. <br /> <br /> Vaikka yritit haastaa maanomistajan oikeuteen, he voisivat vedota volenti non fit injurian puolustamiseen - tämä tarkoittaa, että hyväksyt vapaaehtoisesti loukkaantumisriskin. Maanomistaja ei ole vastuussa, jos hyväksyt vapaaehtoisesti Parkouriin liittyvän riskin. <br /> <br /> Sellaisena maanomistajat eivät ole vastuussa, jos he ovat ilmoittaneet sinulle mahdollisesta vaarasta tiloissa tai jos olet vapaaehtoisesti vaarantaa itsesi. Maanomistajia tulisi siksi muistuttaa siitä, että he eivät ole vastuussa, jos satutat itseäsi vapaaehtoisesti kouluttaessasi Parkouria heidän maallaan."
+      "title": "\"Olemme vastuussa, jos satutat itsesi\"",
+      "content": "Kiinteistönomistajalla on korostunut huolellisuusvelvollisuus, jonka perusteella voi joutua korvaamaan kiinteistön alueella sattuneita vahinkoja. Tähän velvollisuuteen kuuluu huolehtia alueen rakenteiden tarkoituksen mukaisesta asennuksesta ja ylläpidosta sekä mahdollisten vaarallisten asioiden ilmoittamisesta. Harjoitellessaan parkouraaja ottaa tietoisen riskin, että hänelle voi sattua vahinko. Tästä johtuen kiinteistönomistajaa ei voida pitää vastuullisena sattuneesta henkilöön kohdistuneesta vahingosta. Harrastajaa puolestaan voidaan pitää vastuussa kiinteistölle aiheuttamastaan vahingosta."
     },
     {
-      "title": "We have you on CCTV",
-      "content": "Jos tämä syy annetaan sinulle, maanomistaja olettaa, että teet jotain laitonta. Sinun tulisi kertoa heille, että et tee mitään laitonta ja että olet mielelläsi kaapattu CCTV: llä. <br /> <br /> CCTV vain kerää todisteita tekemästänne, eikä se todellakaan ole syy muutokseen. päällä. Jos harjoittelet kunnioittavasti, CCTV vain osoittaa, ettet riko lakia. Todennäköisesti he antavat sinulle yhden syistä, jotka olemme edellä maininneet, eli yksityisomaisuuden ja / tai asukkaiden vastuun."
+      "title": "\"Meillä on nauhoittava videovalvonta\"",
+      "content": "Valvontakameroiden tarkoitus on useimmissa tilanteissa rikostutkinnan helpottaminen ja kulunvalvonta. Käytännössä kamera tallentaa mitä olet tekemässä ja tallenteesta käy ilmi, että et ole tehnyt rikosta. Voit kohteliaasti ilmaista, että et ole tekemässä mitään laitonta."
     },
     {
-      "title": "We will call the Police",
-      "content": "Jos maanomistaja uhkaa kutsua poliisin, maanomistaja olettaa, että teet jotain laitonta. Poliisin tulisi olla mukana vain rikoksen yhteydessä. Parkourin harjoittaminen vastuullisesti kunnioittamalla muita ja ympäristöäsi ei ole rikos. Sellaisena, vaikka poliisi kutsutaan tiloihin, on epätodennäköistä, että se vaatisi sinua muuttamaan. <br /> <br /> Jos kuitenkin poliisi pyytää sinua siirtymään eteenpäin, sinun tulisi selittää mitä olet tekemässä ja siirry sitten heidän pyynnöstään."
+      "title": "\"Soitamme poliisit paikalle\"",
+      "content": "Toisinaan sinua voidaan uhkailla poliisin kutsumisella paikalle. Poliisia ei tulisi kutsua paikalle jos ei ole tapahtunut rikosta. Tilanteessa ei ole syytä epäillä rikosta, jos et aiheuta vahinkoa ympäristölle tai kenenkään omaisuudelle tai vaaranna muiden turvallisuutta. Mikäli poliisit saapuvat paikalle ja pyytävät sinua poistumaan on kehoitusta syytä noudattaa. Voit kohteliaasti kertoa mitä olet tekemässä."
+    }
+  ],
+  "en": [
+    {
+      "title": "\"This is a private property\"",
+      "content": "In Finland, there is the “everyman’s right” under the Nature Conservation Act that gives you the right to move everywhere you feel like. However, everyman’s right does not include closed areas (e.g. factories and institutions) and areas covered by domestic peace (e.g. backyards, courtyards, stairwells, terraces and balconies). Otherwise, the practitioner can practice anywhere <strong>as long as the activities do not disturb the domestic peace or otherwise cause disturbance or injury to others</strong>."
+    },
+    {
+      "title": "\"We are responsible if you hurt yourself\"",
+      "content": "The property owner has an increased duty of care, as they may have to compensate for injury that has occurred in the area of ​​the property. This duty includes taking care of the proper installation and maintenance of the structures in the area and the notification of possible dangerous matters. When practicing Parkour, a practitioner voluntarily accepts the risk of injury. As a result, the property owner cannot be held liable for any personal injury.<br /><br />However, the practitioner can be held liable if they cause damage to the property."
+    },
+    {
+      "title": "\"We have recordable video surveillance\"",
+      "content": "The purpose of surveillance cameras in most situations is to facilitate criminal investigations and to monitor who has been on the property. In practice, the camera records what you are doing and the recording shows that you have not committed a crime. You can politely express that you are not doing anything illegal."
+    },
+    {
+      "title": "\"We'll call the cops\"",
+      "content": "Sometimes you may be threatened by calling the police to the scene. The police should not be called to the scene if no crime has occurred. In this situation, there is no reason to suspect a crime if you do not cause damage to the environment or anyone’s property or endanger the safety of others. If the police arrive at the scene and ask you to leave, then you should do so. You can politely tell them what you are doing."
     }
   ]
 }
