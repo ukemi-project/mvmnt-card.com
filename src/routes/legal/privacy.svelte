@@ -16,6 +16,7 @@
 <svelte:head>
   <title>{$_('privacy-policy.title')} | Movement Card</title>
 </svelte:head>
+
 <section
   id="privacy"
   class="px-4 py-16 overflow-hidden bg-white xl:py-36 sm:px-6 lg:px-8">
@@ -26,8 +27,7 @@
           class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-mcblack sm:text-5xl sm:leading-10">
           {$_('privacy-policy.title')}
         </h1>
-        <p
-          class="mt-5 mb-2 font-semibold leading-6 tracking-wide uppercase text-mcorange2">
+        <p class="mt-5 mb-2 font-semibold leading-6 tracking-wide uppercase">
           {$_('privacy-policy.subtitle')}
         </p>
         <small>{$_('privacy-policy.last-updated')}</small>
@@ -36,9 +36,9 @@
           {@html $_('privacy-policy.email')}
         </p>
 
-        <hr class="my-8 border-b-2 border-gray-200" />
+        <hr class="my-8 border-t-0 border-b-2 border-mcorange2" />
 
-        <h2 class="pt-4 text-xl font-semibold leading-6 tracking-wide">
+        <h2 class="text-xl font-semibold leading-6 tracking-wide">
           {$_('privacy-policy.scope.title')}
         </h2>
 
