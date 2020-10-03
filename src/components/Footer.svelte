@@ -49,15 +49,8 @@
           {$_('nav.privacy')}
         </a>
       </div>
-      <div class="px-5 py-2">
-        <a
-          class="inline-flex items-center space-x-2 text-base font-medium leading-6 transition duration-150 ease-in-out text-mcwhite hover:text-mcorange2"
-          class:selected={segment === 'terms'}
-          href="legal/terms">
-          {$_('nav.terms')}
-        </a>
-      </div>
     </nav>
+
     <div class="flex justify-center mt-8">
       <a href="#" class="text-gray-400 hover:text-gray-500">
         <span class="sr-only">Facebook</span>
@@ -160,6 +153,7 @@
         </svg>
       </a>
     </div>
+
     <div class="mt-8">
       <p class="text-base leading-6 text-center text-gray-400">
         &copy; 2020
