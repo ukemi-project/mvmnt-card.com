@@ -17,7 +17,7 @@
 {#if $isLoading}
   <div class="loading">Loading...</div>
 {:else}
-  <div class="relative flex flex-col h-full">
+  <div class="relative flex flex-col h-screen">
 
     <Header {segment} />
 
