@@ -3,7 +3,7 @@
 ## Homepage
 title = "Movement Card"
 titleSeparator = "-"
-titleAddition = "Sub title" ## TODO
+titleAddition = "Right to the City" ## TODO
 description = "The movement card is part resource, part research and part response action created to promote freedom of movement. It is a worldwide project started in Scotland through a collaboration between Ukemi Project and Parkour Outreach."
 
 ## Open Graph + Twitter Cards
@@ -47,4 +47,3 @@ footer = "Copyright © 2019 <a href=\"https://ukemi.ninja\">Ukemi</a>"
   bootStrapJs = false
   breadCrumb = false
   highLight = true
-  kaTex = false
