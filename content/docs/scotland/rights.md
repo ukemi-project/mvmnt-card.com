@@ -17,6 +17,7 @@ aliases:
   - "/sct/"
   - "/sco/"
   - "/docs/scotland"
+  - "/docs/"
 ---
 
 ## Your Rights

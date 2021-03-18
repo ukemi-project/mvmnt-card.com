@@ -8,12 +8,14 @@ images: []
 menu:
   docs:
     parent: "Scotland"
-weight: 300
+weight: 103
 toc: true
 aliases:
 ---
 
 ## Usefull Links
+
+Below you will find some usefull links to movement parekour related companies doing good things in Scotland
 
 ### Ukemi
 
@@ -55,10 +57,17 @@ We are a non-profit organistion, focused on promoting an supporting the Parkour 
 
 ### Parkour UK
 
-"Established in 2009 by the UK Parkour/Freerunning community and the City of Westminster, Parkour UK is the recognised National Governing Body (NGB).
+"Established in 2009 by the UK Parkour/Freerunning community and the City of Westminster, **[Parkour UK](https://parkour.uk/)** is the recognised National Governing Body (NGB).
 
 Parkour UK as the National Governing Body (NGB) for Parkour/Freerunning, provide governance and regulation of Parkour/Freerunning throughout the UK, act as custodians of the sport/art, protect the rights & freedoms and promote the interests of Traceurs/Freerunners (practitioners), their member organisations & the UK community.
 
 We work closely with partners encouraging and developing the safe and appropriate practice of Parkour/Freerunning in addition to working with local groups, organisations, as well as national organisations/bodies, local authorities, constabularies."
 
 {{< alert icon="💡" text="Learn more about Parkour UK here: <a href=\"https://parkour.uk/\">parkour.uk</a>" >}}
+
+## Files
+
+### Movement Card files
+
+- Movement_card_scotland_front.pdf
+- Movement_card_scotland_back.pdf

@@ -10,8 +10,15 @@ images: []
 menu:
   docs:
     parent: "New Zealand"
-weight: 100
+weight: 300
 toc: true
+aliases:
+  - "/new-zealand/"
+  - "/new_zealand/"
+  - "/newzealand/"
+  - "/nz/"
+  - "/nzl/"
+  - "/docs/new-zealand"
 ---
 
 ## Your Rights
