@@ -12,7 +12,7 @@ aliases:
   - "/legal/"
 ---
 
-## Our Cookie Policy
+## Our Policy
 
 ### What Are Cookies?
 

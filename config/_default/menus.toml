@@ -55,9 +55,14 @@
 [[footer]]
   name = "Privacy"
   url = "/legal/privacy/"
-  weight = 10
+  weight = 30
 
 [[footer]]
   name = "Cookies"
   url = "/legal/cookies/"
   weight = 10
+
+[[footer]]
+  name = "Disclaimer"
+  url = "/legal/disclaimer/"
+  weight = 20
