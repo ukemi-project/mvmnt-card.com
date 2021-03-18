@@ -26,17 +26,17 @@
 ########## Main menu #############
 [[main]]
   name = "Rights"
-  url = "/docs/scotland/"
+  url = "/docs/"
   weight = 10
 
 [[main]]
   name = "About"
-  url = "/docs/scotland/"
+  url = "/about/"
   weight = 20
 
 [[main]]
   name = "Contact"
-  url = "/docs/scotland/"
+  url = "/contact/"
   weight = 30
 
 [[main]]
