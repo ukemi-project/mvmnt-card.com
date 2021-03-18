@@ -12,6 +12,10 @@ menu:
     parent: "England"
 weight: 400
 toc: true
+aliases:
+  - "/england/"
+  - "/eng/"
+  - "/docs/england"
 ---
 
 ## Your Rights

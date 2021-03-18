@@ -12,6 +12,11 @@ menu:
     parent: "Finland"
 weight: 200
 toc: true
+aliases:
+  - "/finland/"
+  - "/fin/"
+  - "/fi/"
+  - "/docs/finland"
 ---
 
 ## Your Rights
