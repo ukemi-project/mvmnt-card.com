@@ -54,10 +54,10 @@
 ########## Footer menu #############
 [[footer]]
   name = "Privacy"
-  url = "/docs/legal/privacy/"
+  url = "/legal/privacy/"
   weight = 10
 
 [[footer]]
   name = "Cookies"
-  url = "/docs/legal/cookies/"
+  url = "/legal/cookies/"
   weight = 10
