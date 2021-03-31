@@ -39,10 +39,10 @@
 #   url = "/contact/"
 #   weight = 40
 
-[[main]]
-  name = "Blog"
-  url = "https://ukemi.ninja/blog/"
-  weight = 30
+# [[main]]
+#   name = "Blog"
+#   url = "https://ukemi.ninja/blog/"
+#   weight = 30
 
 [[main]]
   name = "Legal"

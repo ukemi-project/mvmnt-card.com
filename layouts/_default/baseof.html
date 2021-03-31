@@ -13,18 +13,19 @@
     {{ .Scratch.Add "class" " list" -}}
   {{ end -}}
   <body class="{{ .Scratch.Get "class" }}">
-    {{ partial "header/header.html" . }}
-    <div class="wrap container" role="document">
-      <div class="content">
-        {{ block "main" . }}{{ end }}
+    <div class="page-wrapper">
+
+      {{ partial "header/header.html" . }}
+      <div class="main" role="document">
+          {{ block "main" . }}{{ end }}
       </div>
-    </div>
-    {{ block "sidebar-prefooter" . }}{{ end }}
-    {{ block "sidebar-footer" . }}{{ end }}
-    {{ partial "footer/footer.html" . }}
-    {{ if and .IsHome .Site.Params.alert }}
+      {{ block "sidebar-prefooter" . }}{{ end }}
+      {{ block "sidebar-footer" . }}{{ end }}
+      {{ partial "footer/footer.html" . }}
+      {{ if and .IsHome .Site.Params.alert }}
       {{ partial "footer/alert.html" . }}
-    {{ end }}
-    {{ partial "footer/script-footer.html" . }}
+      {{ end }}
+      {{ partial "footer/script-footer.html" . }}
+    </div>
   </body>
 </html>

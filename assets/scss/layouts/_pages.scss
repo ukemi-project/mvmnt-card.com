@@ -43,3 +43,14 @@ p.meta {
   margin-top: 2.25rem;
   font-size: $font-size-base;
 }
+
+.home-flag {
+  max-width: 100px;
+  align-self: center;
+}
+
+.card-body {
+  position: relative;
+  z-index: 5;
+  border-radius: 1rem;
+}

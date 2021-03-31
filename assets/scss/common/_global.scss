@@ -27,7 +27,7 @@ h6,
 @include media-breakpoint-up(md) {
   body {
     font-size: $font-size-md;
-    padding-top: 4rem !important;
+    // padding-top: 4rem !important;
   }
 
   h1,
@@ -44,6 +44,11 @@ h6,
   .h6 {
     margin-bottom: 1.125rem;
   }
+}
+
+.page-wrapper {
+  overflow-x: hidden;
+  flex: 1 0 auto;
 }
 
 .home h1 {
@@ -85,9 +90,9 @@ a.btn:focus {
 }
 */
 
-body {
-  padding-top: 3.5625rem;
-}
+// body {
+//   padding-top: 3.5625rem;
+// }
 
 .docs-sidebar {
   order: 2;
@@ -222,4 +227,33 @@ body {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+
+// New
+
+.font-w-3 {
+  font-weight: 300; }
+
+.font-w-4 {
+  font-weight: 400; }
+
+.font-w-5 {
+  font-weight: 500; }
+
+.font-w-6 {
+  font-weight: 600; }
+
+.font-w-7 {
+  font-weight: 700; }
+
+.font-w-8 {
+  font-weight: 800; }
+
+.font-w-9 {
+  font-weight: 900; }
+
+@media (min-width: 992px) {
+  .pb-lg-7 {
+    padding-bottom: 6rem !important;
+  }
 }

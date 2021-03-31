@@ -44,6 +44,6 @@ footer = "Copyright © 2019 <a href=\"https://ukemi.ninja\">Ukemi</a>"
   instantPage = true
   flexSearch = true
   darkMode = true
-  bootStrapJs = false
+  bootStrapJs = true
   breadCrumb = false
   highLight = true

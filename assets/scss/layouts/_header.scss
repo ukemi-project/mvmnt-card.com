@@ -266,3 +266,29 @@
 .navbar .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::after {
   top: 0;
 }
+
+#header-wrap {
+  padding: 15px 0;
+  position: relative;
+}
+
+.navbar-brand {
+  margin-right: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.header {
+  position: relative;
+  z-index: 1030;
+  background-color: $dark;
+}
+
+.header a {
+  color: $offwhite;
+}
+
+.header a.text-body {
+  color: $offwhite !important;
+}
