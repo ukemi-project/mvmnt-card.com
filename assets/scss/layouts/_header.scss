@@ -111,13 +111,13 @@
 
 @include media-breakpoint-up(lg) {
   .navbar-form {
-    margin-left: 5rem;
+    margin-left: 10rem;
   }
 }
 
 @include media-breakpoint-up(xl) {
   .navbar-form {
-    margin-left: 10rem;
+    margin-left: 20rem;
   }
 }
 
@@ -283,6 +283,7 @@
   // position: relative;
   z-index: 1030;
   background-color: $dark;
+  height: 4rem;
 }
 
 .header a {

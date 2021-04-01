@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ .Site.LanguageCode | default "en" }}">
+<html lang="{{ .Site.LanguageCode | default "en" }}" class="h-100">
   {{ partial "head/head.html" . }}
   {{ if eq .Kind "home" -}}
     {{ .Scratch.Set "class" "home" -}}
@@ -12,13 +12,11 @@
     {{ .Scratch.Set "class" .Type -}}
     {{ .Scratch.Add "class" " list" -}}
   {{ end -}}
-  <body class="{{ .Scratch.Get "class" }}">
-    <div class="page-wrapper">
-
+  <body class="{{ .Scratch.Get "class" }} d-flex flex-column h-100">
       {{ partial "header/header.html" . }}
-      <div class="main" role="document">
+      <main class="flex-shrink-0" role="document">
           {{ block "main" . }}{{ end }}
-      </div>
+      </main>
       {{ block "sidebar-prefooter" . }}{{ end }}
       {{ block "sidebar-footer" . }}{{ end }}
       {{ partial "footer/footer.html" . }}
@@ -26,6 +24,5 @@
       {{ partial "footer/alert.html" . }}
       {{ end }}
       {{ partial "footer/script-footer.html" . }}
-    </div>
   </body>
 </html>

@@ -66,3 +66,8 @@ p.meta {
 .cover-image {
   max-height: 200px;
 }
+
+main > .cover {
+  padding: 60px 15px 0;
+  min-height: calc(100vh - 4rem);
+}

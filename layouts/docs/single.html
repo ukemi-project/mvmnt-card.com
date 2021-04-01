@@ -1,4 +1,6 @@
 {{ define "main" }}
+<div class="container pt-4 pb-5 py-lg-5">
+
 	<div class="row flex-xl-nowrap">
 		<div class="col-lg-5 col-xl-4 docs-sidebar">
 			<nav class="docs-links" aria-label="Main navigation">
@@ -12,10 +14,10 @@
 		{{ end -}}
 		{{ if .Params.toc -}}
 		<main class="docs-content col-lg-11 col-xl-9">
-		{{ else -}}
-		<main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
-		{{ end -}}
-			{{ if .Site.Params.options.breadCrumb -}}
+			{{ else -}}
+			<main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
+				{{ end -}}
+				{{ if .Site.Params.options.breadCrumb -}}
 				<!-- https://discourse.gohugo.io/t/breadcrumb-navigation-for-highly-nested-content/27359/6 -->
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb">
@@ -23,14 +25,15 @@
 						<li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
 					</ol>
 				</nav>
-			{{ end }}
-			<h1>{{ .Title }}</h1>
-			<p class="lead">{{ .Params.lead | safeHTML }}</p>
-			{{ partial "main/headline-hash.html" .Content }}
-			{{ if .Site.Params.editPage -}}
+				{{ end }}
+				<h1>{{ .Title }}</h1>
+				<p class="lead">{{ .Params.lead | safeHTML }}</p>
+				{{ partial "main/headline-hash.html" .Content }}
+				{{ if .Site.Params.editPage -}}
 				{{ partial "main/edit-page.html" . }}
-			{{ end -}}
-			{{ partial "main/docs-navigation.html" . }}
-		</main>
+				{{ end -}}
+				{{ partial "main/docs-navigation.html" . }}
+			</main>
+		</div>
 	</div>
 {{ end }}
