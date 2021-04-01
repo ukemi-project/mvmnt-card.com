@@ -45,7 +45,7 @@ p.meta {
 }
 
 .home-flag {
-  max-width: 100px;
+  max-width: 75px;
   align-self: center;
 }
 
@@ -53,4 +53,12 @@ p.meta {
   position: relative;
   z-index: 5;
   border-radius: 1rem;
+}
+
+.text-dark {
+  color: $dark
+}
+
+.dark-bg {
+  background-color: $blackbg
 }

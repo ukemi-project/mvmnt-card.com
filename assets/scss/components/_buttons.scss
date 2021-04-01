@@ -82,3 +82,58 @@ body.dark .toggle-dark {
   content: "Copied";
   display: block;
 }
+
+
+// 
+
+a.button-gold {
+	background-color: $orange;
+	border: 1px solid $orange;
+	color: #fff;
+	display: inline-block;
+	font-weight: 400;
+	font-size: 14px;
+	padding: 11px 20px 10px 20px;
+	margin: 10px 10px 20px 0;
+	-webkit-border-radius: 5px 5px;
+	-moz-border-radius: 5px 5px;
+	border-radius: 5px 5px;
+	transition: all .50s ease-in-out;
+	-moz-transition: all .50s ease-in-out;
+	-webkit-transition: all .50s ease-in-out;
+}
+
+a.button-gold:hover {
+	background-color: transparent;
+	border: 1px solid $orange;
+	color: $orange;
+	transition: all .50s ease-in-out;
+	-moz-transition: all .50s ease-in-out;
+	-webkit-transition: all .50s ease-in-out;
+}
+
+a.button-transparent {
+	background-color: transparent;
+	border: 1px solid $orange;
+	color: $orange;
+	display: inline-block;
+	font-weight: 400;
+	font-size: 14px;
+	padding: 12px 23px 11px 23px;
+	margin: 10px 10px 20px 0;
+	-webkit-border-radius: 5px 5px;
+	-moz-border-radius: 5px 5px;
+	border-radius: 5px 5px;
+	transition: all .50s ease-in-out;
+	-moz-transition: all .50s ease-in-out;
+	-webkit-transition: all .50s ease-in-out;
+}
+
+a.button-transparent:hover {
+	background-color: $orange;
+	border: 1px solid $orange;
+	color: $dark;
+	transition: all .50s ease-in-out;
+	-moz-transition: all .50s ease-in-out;
+	-webkit-transition: all .50s ease-in-out;
+}
