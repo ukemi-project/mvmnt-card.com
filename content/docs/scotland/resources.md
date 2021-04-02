@@ -69,5 +69,9 @@ We work closely with partners encouraging and developing the safe and appropriat
 
 ### Movement Card files
 
-- Movement_card_scotland_front.pdf
-- Movement_card_scotland_back.pdf
+Here are some resources you can download to print your own Scotland cards. Please get in touch with us if you are unsure how to use these.
+
+- [Movement_card_scotland_front.pdf](/files/Movement_card_scotland_front.pdf)
+- [Movement_card_scotland_front_SpotUV.pdf](/files/Movement_card_scotland_front_SpotUV.pdf)
+- [Movement_card_scotland_back.pdf](/files/Movement_card_scotland_back.pdf)
+- [Movement_card_scotland_back_SpotUV.pdf](/files/Movement_card_scotland_back_SpotUV.pdf)

@@ -3,7 +3,7 @@ title: "Tips for traceurs"
 description: "Here are some tips for locals and visitors to Scotland. Maybe there is some culturally relevant information, taboos, and other things it may be helpfull to be aware of."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
-draft: false
+draft: true
 images: []
 menu:
   docs:
