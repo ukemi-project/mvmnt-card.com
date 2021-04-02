@@ -1,5 +1,5 @@
 ---
-title: "Laws in Finland"
+title: "Laws in Finland (English)"
 description: "The following will guide you through the legal rights relating to the typical reasons given by security guards/landowners.
 
 Always train with respect for others and your surroundings. Do not run away or act suspiciously if police or others approach you. If you are asked to move on, then you should explain what Parkour is, be respectful and move on. It is better to be on good terms with landowners and/or the police if you, or other practitioners, want to return another day."
@@ -20,6 +20,12 @@ aliases:
 ---
 
 ## Your Rights
+
+The following will guide you through the legal rights relating to the typical reasons given by security guards/landowners.
+
+Always train with respect for others and your surroundings. Do not run away or act suspiciously if police or others approach you. If you are asked to move on, then you should explain what Parkour is, be respectful and move on. It is better to be on good terms with landowners and/or the police if you, or other practitioners, want to return another day.
+
+{{< alert icon="💡" text="This information is intended to promote responsible Parkour, but should not be construed as formal legal advice." >}}
 
 ### "This is a private property"
 
