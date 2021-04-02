@@ -26,8 +26,6 @@ The following will guide you through the legal rights relating to the typical re
 
 Always train with respect for others and your surroundings. Do not run away or act suspiciously if police or others approach you. If you are asked to move on, then you should explain what Parkour is, be respectful and move on. It is better to be on good terms with landowners and/or the police if you, or other practitioners, want to return another day.
 
-{{< alert icon="💡" text="This information is intended to promote responsible Parkour, but should not be construed as formal legal advice." >}}
-
 ### "This is private property"
 
 If the land is owned by someone, it is private property. Confusingly, this includes land that is publicly accessible. This means that almost all land in Scotland will be private property, but this does not always mean you cannot be there.
@@ -63,3 +61,5 @@ CCTV is merely capturing evidence of what you are doing and is definitely not a 
 If the landowner threatens to call the police, the landowner is assuming that you are doing something unlawful. The police should only be involved if there is a crime. Practising Parkour responsibly with respect for others and your surroundings is not a crime. As such, even if the police were called to the premises, it is unlikely that they would require you to move.
 
 However, if the police request that you move on, you should explain what you are doing and then move on upon their request.
+
+{{< alert icon="💡" text="This information is intended to promote responsible Parkour, but should not be construed as formal legal advice." >}}

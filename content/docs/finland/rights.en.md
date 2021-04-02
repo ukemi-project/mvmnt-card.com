@@ -25,8 +25,6 @@ The following will guide you through the legal rights relating to the typical re
 
 Always train with respect for others and your surroundings. Do not run away or act suspiciously if police or others approach you. If you are asked to move on, then you should explain what Parkour is, be respectful and move on. It is better to be on good terms with landowners and/or the police if you, or other practitioners, want to return another day.
 
-{{< alert icon="💡" text="This information is intended to promote responsible Parkour, but should not be construed as formal legal advice." >}}
-
 ### "This is a private property"
 
 In Finland, there is the “everyman’s right” under the Nature Conservation Act that gives you the right to move everywhere you feel like. However, everyman’s right does not include closed areas (e.g. factories and institutions) and areas covered by domestic peace (e.g. backyards, courtyards, stairwells, terraces and balconies).  Otherwise, the practitioner can practice anywhere **as long as the activities do not disturb the domestic peace or otherwise cause disturbance or injury to others**.
@@ -44,3 +42,5 @@ The purpose of surveillance cameras in most situations is to facilitate criminal
 ### "We'll call the cops"
 
 Sometimes you may be threatened by calling the police to the scene. The police should not be called to the scene if no crime has occurred. In this situation, there is no reason to suspect a crime if you do not cause damage to the environment or anyone’s property or endanger the safety of others. If the police arrive at the scene and ask you to leave, then you should do so. You can politely tell them what you are doing.
+
+{{< alert icon="💡" text="This information is intended to promote responsible Parkour, but should not be construed as formal legal advice." >}}

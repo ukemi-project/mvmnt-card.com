@@ -25,8 +25,6 @@ Seuraava opastaa sinut laillisten oikeuksien läpi, jotka liittyvät vartijoiden
 
 Harjoittele aina kunnioittaen muita ja ympäristöäsi. Älä karkaa tai toimi epäilyttävästi, jos poliisi tai muut lähestyvät sinua. Jos sinua pyydetään siirtymään eteenpäin, sinun tulee selittää mikä Parkour on, olla kunnioittava ja siirtyä eteenpäin. On parempi olla hyvässä kunnossa maanomistajien ja / tai poliisin kanssa, jos sinä tai muut harjoittajat haluatte palata toisen päivän.
 
-{{< alert icon="💡" text="Tämä tiedon tarkoituksena on edistää vastuullista parkourharrastamista, mutta sitä ei tulisi pitää virallisena lakineuvontana." >}}
-
 ### "Tämä on yksityisaluetta"
 
 Suomessa yksityisalueita, jotka ovat jokamiehenoikeuden ulkopuolella ovat suljetut alueet (esim. tehtaat ja laitokset) ja kotirauhan piiriin kuuluvat alueet (kuten kotipihat, sisäpihat, rappukäytävät, terassit ja parvekkeet). Muutoin parkouraaja voi harjoitella missä vain **kunhan ei toiminnallaan häiritse kotirauhaa tai muutoin aiheuta häiriötä tai vahinkoa**.
@@ -44,3 +42,5 @@ Valvontakameroiden tarkoitus on useimmissa tilanteissa rikostutkinnan helpottami
 ### "Soitamme poliisit paikalle"
 
 Toisinaan sinua voidaan uhkailla poliisin kutsumisella paikalle. Poliisia ei tulisi kutsua paikalle jos ei ole tapahtunut rikosta. Tilanteessa ei ole syytä epäillä rikosta, jos et aiheuta vahinkoa ympäristölle tai kenenkään omaisuudelle tai vaaranna muiden turvallisuutta. Mikäli poliisit saapuvat paikalle ja pyytävät sinua poistumaan on kehoitusta syytä noudattaa. Voit kohteliaasti kertoa mitä olet tekemässä.
+
+{{< alert icon="💡" text="Tämä tiedon tarkoituksena on edistää vastuullista parkourharrastamista, mutta sitä ei tulisi pitää virallisena lakineuvontana." >}}

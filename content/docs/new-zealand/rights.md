@@ -24,3 +24,5 @@ aliases:
 ## Your Rights
 
 The New Zealand page is under review and will be coming soon!
+
+{{< alert icon="💡" text="This information is intended to promote responsible Parkour, but should not be construed as formal legal advice." >}}

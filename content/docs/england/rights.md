@@ -21,3 +21,5 @@ aliases:
 ## Your Rights
 
 The England page is in development and will be coming soon!
+
+{{< alert icon="💡" text="This information is intended to promote responsible Parkour, but should not be construed as formal legal advice." >}}
