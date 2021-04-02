@@ -28,8 +28,8 @@
 				<h1>{{ .Title }}</h1>
 				<p class="lead">{{ .Params.lead | safeHTML }}</p>
 				{{ partial "main/headline-hash.html" .Content }}
-				<p class="text-muted text-md-nowrap pt-2">
-					Last Modified: {{ .Lastmod }}
+				<p class="text-muted pt-2">
+					<small><b>Last Modified:</b> {{ .Lastmod }}</small>
 				</p>
 				{{ partial "main/docs-navigation.html" . }}
 			</main>
