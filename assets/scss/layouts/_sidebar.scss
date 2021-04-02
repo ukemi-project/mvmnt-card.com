@@ -52,7 +52,8 @@
 }
 
 .docs-links h3:not(:first-child) {
-  border-top: 1px solid $gray-200;
+  border-top: 1px solid $orange;
+  max-width: 200px;
 }
 
 a.docs-link {
@@ -107,4 +108,17 @@ a.docs-link {
 .docs-links h3.sidebar-link a:hover,
 .page-links h3.sidebar-link a:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .docs-sidebar::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: $sidebar;
+    content: '';
+  }
 }
