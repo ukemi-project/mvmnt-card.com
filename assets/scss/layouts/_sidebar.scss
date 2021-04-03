@@ -110,6 +110,10 @@ a.docs-link {
   text-decoration: underline;
 }
 
+.docs-sidebar {
+  max-width: 18rem;
+}
+
 @media (min-width: 992px) {
   .docs-sidebar::before {
     display: block;
@@ -121,4 +125,13 @@ a.docs-link {
     background-color: $sidebar;
     content: '';
   }
+}
+
+.docs-toc {
+  padding-left: 0;
+}
+
+.page-links {
+  padding-left: 1.5rem;
+  border-left: 0.25rem solid $sidebar;
 }
