@@ -65,7 +65,7 @@ We work closely with partners encouraging and developing the safe and appropriat
 
 {{< alert icon="💡" text="Learn more about Parkour UK here: <a href=\"https://parkour.uk/\">parkour.uk</a>" >}}
 
-## Files
+## Downloads
 
 ### Movement Card files
 
