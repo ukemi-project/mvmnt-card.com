@@ -1,0 +1,21 @@
+.footer {
+  padding-top: 1.125rem;
+  background-color: $dark;
+  display: block;
+  margin-top: auto!important;
+}
+
+.footer ul {
+  margin-bottom: 0;
+}
+
+.footer li {
+  font-size: $font-size-sm;
+  margin-bottom: 0;
+}
+
+@include media-breakpoint-up(md) {
+  .footer li {
+    font-size: $font-size-base;
+  }
+}
