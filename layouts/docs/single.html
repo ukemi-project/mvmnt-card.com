@@ -31,8 +31,9 @@
 				<p class="text-muted pt-2">
 					<small><b>Last Modified:</b> {{ .Lastmod }}</small>
 				</p>
+				{{ partial "main/docs-cta.html" . }}
 				{{ partial "main/docs-navigation.html" . }}
 			</main>
-		</div>
+	</div>
 </div>
 {{ end }}

@@ -1,5 +1,4 @@
 .contributors .content,
-.blog .content,
 .page .content,
 .error404 .content,
 .docs.list .content,
@@ -284,4 +283,8 @@ a.btn:focus {
 
 .black-bg {
   background-color: $dark;
+}
+
+.bg-gray-500 {
+  background-color: $sidebar;
 }
