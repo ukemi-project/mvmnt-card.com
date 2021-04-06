@@ -75,3 +75,14 @@ Here are some resources you can download to print your own Scotland cards. Pleas
 - [Movement_card_scotland_front_SpotUV.pdf](/files/Movement_card_scotland_front_SpotUV.pdf)
 - [Movement_card_scotland_back.pdf](/files/Movement_card_scotland_back.pdf)
 - [Movement_card_scotland_back_SpotUV.pdf](/files/Movement_card_scotland_back_SpotUV.pdf)
+
+## Other
+
+### Old Website
+
+You can view the old website for just Scotland here:<br>
+[https://ukemi-project.github.io/mvmnt-card.com/](https://ukemi-project.github.io/mvmnt-card.com/)
+
+### Source Code
+
+View the source on [Github](https://github.com/ukemi-project/mvmnt-card.com/), V1 source can be veiwed [here](https://github.com/ukemi-project/mvmnt-card.com/tree/v1).
