@@ -3,11 +3,11 @@
 ## Homepage
 title = "Movement Card"
 titleSeparator = "-"
-titleAddition = "Right to the City" ## TODO
+titleAddition = "Right to the City"
 description = "The movement card is part resource, part research and part response action created to promote freedom of movement. It is a worldwide project started in Scotland through a collaboration between Ukemi Project and Parkour Outreach."
 
 ## Open Graph + Twitter Cards
-images = ["doks.png"] ## TODO
+images = ["images/card-splash.jpg"]
 twitterSite = "UkemiProject"
 twitterCreator = "UkemiProject"
 facebookAuthor = "UkemiProject"
@@ -16,19 +16,18 @@ ogLocale = "en_GB"
 
 ## JSON-LD
 schemaType = "Organization"
-schemaLogo = "logo-doks.png" ## TODO
+schemaLogo = "images/card-splash.jpg"
 schemaTwitter = "https://twitter.com/UkemiProject"
 schemaLinkedIn = "https://www.linkedin.com/in/UkemiProject/"
 schemaGitHub = "https://github.com/ukemi-project"
-schemaSection = "blog" ## TODO
 
 ## Sitelinks Search Box
 siteLinksSearchBox = false
 
 ## Chrome Browser
-themeColor = "#fff" ## TODO
+themeColor = "#fff"
 
-# Images ## TODO
+# Images ##
 quality = 85
 bgColor = "#fff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
