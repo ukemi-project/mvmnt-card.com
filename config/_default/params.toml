@@ -1,0 +1,49 @@
+# Meta Data for SEO
+
+## Homepage
+title = "Movement Card"
+titleSeparator = "-"
+titleAddition = "Right to the City" ## TODO
+description = "The movement card is part resource, part research and part response action created to promote freedom of movement. It is a worldwide project started in Scotland through a collaboration between Ukemi Project and Parkour Outreach."
+
+## Open Graph + Twitter Cards
+images = ["doks.png"] ## TODO
+twitterSite = "UkemiProject"
+twitterCreator = "UkemiProject"
+facebookAuthor = "UkemiProject"
+facebookPublisher = "UkemiProject"
+ogLocale = "en_GB"
+
+## JSON-LD
+schemaType = "Organization"
+schemaLogo = "logo-doks.png" ## TODO
+schemaTwitter = "https://twitter.com/UkemiProject"
+schemaLinkedIn = "https://www.linkedin.com/in/UkemiProject/"
+schemaGitHub = "https://github.com/ukemi-project"
+schemaSection = "blog" ## TODO
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff" ## TODO
+
+# Images ## TODO
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+
+# Footer
+footer = "<p>Copyright © 2021 <a href=\"https://ukemi.ninja\" class=\"gold-link\">Ukemi</a><p/>"
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = false
+  bootStrapJs = true
+  breadCrumb = true
+  highLight = true
