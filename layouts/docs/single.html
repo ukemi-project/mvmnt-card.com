@@ -28,9 +28,9 @@
 				<h1>{{ .Title }}</h1>
 				<p class="lead">{{ .Params.lead | safeHTML }}</p>
 				{{ partial "main/headline-hash.html" .Content }}
-				<p class="text-muted pt-2">
+				<!-- <p class="text-muted pt-2">
 					<small><b>Last Modified:</b> {{ .Lastmod }}</small>
-				</p>
+				</p> -->
 				{{ partial "main/docs-cta.html" . }}
 				{{ partial "main/docs-navigation.html" . }}
 			</main>
