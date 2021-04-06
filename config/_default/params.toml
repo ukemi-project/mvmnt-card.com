@@ -7,7 +7,7 @@ titleAddition = "Right to the City"
 description = "The movement card is part resource, part research and part response action created to promote freedom of movement. It is a worldwide project started in Scotland through a collaboration between Ukemi Project and Parkour Outreach."
 
 ## Open Graph + Twitter Cards
-images = ["mc-mock-gloss.jpg"]
+images = ["mock-gloss.jpg"]
 twitterSite = "UkemiProject"
 twitterCreator = "UkemiProject"
 facebookAuthor = "UkemiProject"
