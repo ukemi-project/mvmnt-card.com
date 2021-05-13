@@ -1,5 +1,5 @@
 ---
-title: "Laws in Finland (Finish)"
+title: "Lait Suomessa"
 description: "The following will guide you through the legal rights relating to the typical reasons given by security guards/landowners.
 
 Always train with respect for others and your surroundings. Do not run away or act suspiciously if police or others approach you. If you are asked to move on, then you should explain what Parkour is, be respectful and move on. It is better to be on good terms with landowners and/or the police if you, or other practitioners, want to return another day."
@@ -19,15 +19,15 @@ aliases:
   - "/docs/finland"
 ---
 
-## Your Rights
+## Sinun oikeutesi
 
-Seuraava opastaa sinut laillisten oikeuksien läpi, jotka liittyvät vartijoiden / maanomistajien esittämiin tyypillisiin syihin.
+Harjoittele aina kunnioittaen muita ja ympäristöäsi. Älä karkaa tai toimi muutoin epäilyttävästi mikäli poliisi/vartija/muu henkilö lähestyy sinua aikeissa keskustella. Muista käyttäytyä asiallisesti vaikka sinua pyydetään poistumaan. Voit yrittää neuvotella tilanteessa kertomalla, että olet parkouraaja ja mitä olet tekemässä. Jos sinua kaikesta huolimatta pyydetään poistumaan on kehotusta syytä noudattaa. On parempi olla hyvissä väleissä kiinteistönomistajien ja / tai poliisin kanssa. Hyvän käytöksen kautta voi mahdollistaa treenaamisen myös paikoilla, joista on aiemmin häädetty.
 
-Harjoittele aina kunnioittaen muita ja ympäristöäsi. Älä karkaa tai toimi epäilyttävästi, jos poliisi tai muut lähestyvät sinua. Jos sinua pyydetään siirtymään eteenpäin, sinun tulee selittää mikä Parkour on, olla kunnioittava ja siirtyä eteenpäin. On parempi olla hyvässä kunnossa maanomistajien ja / tai poliisin kanssa, jos sinä tai muut harjoittajat haluatte palata toisen päivän.
+Seuraavassa käydään läpi tyypillisiä tilanteita ja perusteita, joilla sinua voidaan pyytää poistumaan harjoittelupaikalta.
 
 ### "Tämä on yksityisaluetta"
 
-Suomessa yksityisalueita, jotka ovat jokamiehenoikeuden ulkopuolella ovat suljetut alueet (esim. tehtaat ja laitokset) ja kotirauhan piiriin kuuluvat alueet (kuten kotipihat, sisäpihat, rappukäytävät, terassit ja parvekkeet). Muutoin parkouraaja voi harjoitella missä vain **kunhan ei toiminnallaan häiritse kotirauhaa tai muutoin aiheuta häiriötä tai vahinkoa**.
+Suomessa yksityisalueita, jotka ovat jokamiehenoikeuden ulkopuolella ovat suljetut alueet (esim. tehtaat ja laitokset) ja kotirauhan piiriin kuuluvat alueet (kuten kotipihat, sisäpihat, rappukäytävät, terassit ja parvekkeet). Muutoin parkouraaja voi harjoitella missä vain kunhan ei toiminnallaan häiritse kotirauhaa tai muutoin aiheuta häiriötä tai vahinkoa.
 
 ### "Olemme vastuussa, jos satutat itsesi"
 
