@@ -1,5 +1,5 @@
 ---
-title: "Laws in England"
+title: "Laws in Wales"
 description: "The following will guide you through the legal rights relating to the typical reasons given by security guards/landowners.
 
 Always train with respect for others and your surroundings. Do not run away or act suspiciously if police or others approach you. If you are asked to move on, then you should explain what Parkour is, be respectful and move on. It is better to be on good terms with landowners and/or the police if you, or other practitioners, want to return another day."
@@ -9,13 +9,13 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "England"
+    parent: "Wales"
 weight: 400
 toc: true
 aliases:
-  - "/england/"
-  - "/eng/"
-  - "/docs/england"
+- "/wales/"
+- "/wal/"
+- "/docs/wales"
 ---
 
 ## Your Rights

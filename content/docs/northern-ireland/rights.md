@@ -1,5 +1,5 @@
 ---
-title: "Laws in England"
+title: "Laws in Northern Ireland"
 description: "The following will guide you through the legal rights relating to the typical reasons given by security guards/landowners.
 
 Always train with respect for others and your surroundings. Do not run away or act suspiciously if police or others approach you. If you are asked to move on, then you should explain what Parkour is, be respectful and move on. It is better to be on good terms with landowners and/or the police if you, or other practitioners, want to return another day."
@@ -9,13 +9,21 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "England"
-weight: 400
+    parent: "Northern Ireland"
+weight: 300
 toc: true
 aliases:
-  - "/england/"
-  - "/eng/"
-  - "/docs/england"
+- "/northern-ireland/"
+- "/northern_ireland/"
+- "/northernireland/"
+- "/north-ireland/"
+- "/north_ireland/"
+- "/northireland/"
+- "/n-ireland/"
+- "/n_ireland/"
+- "/nireland/"
+- "/nie/"
+- "/docs/orthern-ireland"
 ---
 
 ## Your Rights
@@ -34,7 +42,7 @@ A larger organisation, such as a local authority, might ask for an event notice 
 
 A landowner is often concerned that ‘if you get hurt you can sue us’. However, this is usually a misunderstanding. If someone is doing parkour and hurts themselves, that is nothing to do with the landowner.
 
-In every situation, the law is clear that there is no liability for any risks willingly accepted by the visitor [Occupiers Liability Act 1957 s2 (5); Occupiers Liability Act 1984 s1 (6)].
+In every situation, the law is clear that there is no liability for any risks willingly accepted by the visitor [Occupiers’ Liability Act 1984 and Occupiers&#39; Liability (Northern Ireland) Order 1987].
 
 Landowners are generally worried about being liable if someone gets hurt on their land while practising parkour, but in usual circumstances, they have voluntarily accepted this risk.
 
